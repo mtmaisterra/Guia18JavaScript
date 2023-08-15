@@ -3,6 +3,6 @@ Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo est�
 hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que 
 indique “El día de hoy está ...”, completando el mensaje con el dato que ingresó el usuario.*/
 
-var tiempo = prompt("¿Como es el día de hoy?", "soleado, nublado, lloviendo");
+var tiempo = prompt("¿Como es el día de hoy? \n soleado \n nublado \n lloviendo");
 
 alert (`El dia de hoy esta... ${tiempo}`);
