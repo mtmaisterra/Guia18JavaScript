@@ -8,9 +8,10 @@ let arr = [];
 var valorMax = 0;
 var prom = 0;
 var i = 0;
+valorMin = 0;
 
 do {
-    var num = parseFloat(prompt("Ingrese un número"));
+    var num = parseInt(prompt("Ingrese un número"));
    
     console.log("[ " + i + " ] = " + num);
     i = i + 1;
@@ -19,6 +20,9 @@ do {
   if (num > valorMax){
 valorMax = num;
   } /*Hasta acá funciona bien*/
+ /* if (num <= valorMin){
+    valorMIn = num;
+      } /*Hasta acá funciona bien*/
 
 } while (num !== 0);
 
