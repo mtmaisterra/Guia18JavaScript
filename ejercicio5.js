@@ -8,13 +8,12 @@ o ‘m’ para la multiplicación y ‘D’ o ‘d’ para la división.*/
 
 var num1 = parseFloat(prompt("Ingresa el primer número:"));
 var num2 = parseFloat(prompt("Ingresa el segundo número:"));
-var resultado = "adios";
+
   var opcion = prompt(
     "Operaciones aritméticas \n S- suma \n R- resta \n M- multiplicación \n D- división \n A- salir");
   switch (opcion) {
     case "S":
-      var resultado = num1 + num2;  
-          
+      var resultado = num1 + num2;            
       break;
     case "R":
       var resultado = num1 - num2;           
