@@ -7,3 +7,27 @@ ordenados al arreglo B de 20 elementos, y rellenar los 10 últimos elementos con
 0.5. Mostrar los dos arreglos resultantes: el ordenado de 50 elementos y el combinado 
 de 20. */
 
+var arregloA = [];
+var arregloB = [];
+
+for (let i = 0; i < 50; i++) {
+   var num = Math.floor(Math.random()*50);
+   arregloA.push(num);
+}
+console.log("[ "+ arregloA + " ]");
+
+function compararMenorMayor(a,b){
+    return a-b;
+}
+
+var arregloOrdenado = arregloA.sort(compararMenorMayor);
+
+console.log("[ "+ arregloOrdenado + " ]");
+
+arregloB = arregloA.slice(0,10);
+
+for (let i = 10; i < 20; i++) {
+   arregloB[i]= 0.5;
+    
+}
+console.log("[ " + arregloB + " ]")
